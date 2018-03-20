@@ -1,0 +1,209 @@
+body {
+
+	background-size: cover;
+	/*background-color:#ffedcc;*/
+	background-image: url(bg.jpg);
+}
+.topnav {
+  overflow: hidden;
+  background: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 140px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+text-decoration: none;
+ // background-color: #ddd;
+  color: orange;
+}
+
+
+
+#header{
+	
+	background-image: url(img2_slide.png);
+	background-size: 100% 110%;
+	background-position:center;
+	top:50%;
+    transform: translate(8%,3%);
+	width:1130px;
+	height: 400px;
+}
+
+
+
+
+#cupcakehome{
+	background-color:#F0F8FF;
+	height:850px;
+	width:1129px;
+    transform: translate(8%,40%);
+	padding:1px;
+	position:absolute;
+	opacity:0.5;
+}
+
+
+div.container {
+    margin: 21px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	transform: translate(55%,20%);
+}
+
+div.container img {
+  display: block;
+  width: 100%
+
+
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#b35900;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .3s ease;
+  opacity:0.5;
+
+ 
+
+}
+
+div.container:hover .overlay {
+  height: 55%;
+  opacity:1;
+  
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap; 
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #b35900;
+    color: white;
+}
+
+.button{
+	position: absolute;
+    bottom: 0%;
+    width: 200px;
+    height: 100px;
+   transform: translate(285%,250%);
+
+}
+
+.buttonn {
+	font-family: Arial, Helvetica, sans-serif;
+   
+    border: none;
+  
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2x 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn2_nachos {
+    background-color: white;
+    color: black;
+     border: 2px solid white;
+	border-radius: 8px;
+}
+
+.btn2_nachos:hover {
+    background-color: #555555;
+    color: white;
+}
+.btn1_nachos {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+	border-radius: 8px;
+}
+
+.btn1_nachos:hover {
+    background-color: #555555;
+    color: white;
+}
+.btn3_nachos {
+    background-color: white;
+    color: black;
+     border: 2px solid white;
+	border-radius: 8px;
+}
+
+.btn3_nachos:hover {
+    background-color: #555555;
+    color: white;
+}
+.btn4_nachos {
+    background-color: white;
+    color: black;
+     border: 2px solid white;
+	border-radius: 8px;
+}
+
+.btn4_nachos:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.btn5_nachos {
+    background-color: white;
+    color: black;
+     border: 2px solid white;
+	border-radius: 8px;
+}
+
+.btn5_nachos:hover {
+    background-color: #555555;
+    color: white;
+}
+
